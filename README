@@ -1,0 +1,34 @@
+====Simple RPG====
+Casey Yardley
+2009
+=================
+Supported OS: Linux; Windows (note: maybe not this version.)
+
+====About====
+A simple RPG programmed by me in my spare time.
+Programmed in C++ using the g++ compiler on Linux.
+Uses SDL graphics libraries (which use the GNU Lesser GPL).
+
+====Command Line Options====
+-dev		//Toggles DEVELOPER mode
+-delay x	//Sets Delay in milliseconds (-delay SPACE INTEGER)
+
+ex: ./rpg -dev -delay 10 //Toggles DEVELOPER mode and sets a delay of 10ms.
+
+====DEVELOPER Mode Keys====
+1		//Map/Movement mode
+2		//Inventory/Items mode
+0		//Enter In Game Commands
+w,a,s,d		//Movement, with no collision (dangerous)
+
+====In Game Commands====
+invendump	//Prints out text of player's inventory
+mousetest	//Makes the mouse hold a sword1 item (in Inventory mode)
+dMouseXY	//Toggles mouse coordinates display
+dCamXY		//Toggles camera coordiantes display
+dMiniM		//Toggles developer mini map.
+devKeys		//Toggles Developer Mode Keys
+editTile	//Toggles tile editor (with mouse)
+changeTile \n x //Change tile (for tile editor)
+saveMap		//Saves the mapfile
+dMouseTile	//Toggles mouse tile number hover display
